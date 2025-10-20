@@ -5,13 +5,13 @@ import Navbar from '../Components/Header/Navbar';
 const MainLayouts = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <header>
+      <header className=''>
         <Navbar />
       </header>
       <main className="flex-1">
         <Outlet />
       </main>
-      <footer>
+      <footer className=''>
         <Footer />
       </footer>
     </div>

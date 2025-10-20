@@ -1,10 +1,9 @@
 
 const Homepage = () => {
-  console.log(jjjjjjjjjjjjjjjj)
+  
   return (
-    <div>Homepage</div>
- 
-  )
+    <div></div>
+  );
 }
 
 export default Homepage
