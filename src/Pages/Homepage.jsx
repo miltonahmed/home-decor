@@ -1,8 +1,11 @@
+import Home from "../Components/Home/Home";
 
 const Homepage = () => {
   
   return (
-    <div></div>
+    <>
+      <Home/> 
+    </>
   );
 }
 
