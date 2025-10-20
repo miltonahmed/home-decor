@@ -4,18 +4,25 @@ import Navbar from '../Components/Header/Navbar';
 
 const MainLayouts = () => {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <header>
         <Navbar />
       </header>
-      <main>
+      <main className="flex-1">
         <Outlet />
       </main>
       <footer>
         <Footer />
       </footer>
-    </>
+    </div>
   );
 };
 
 export default MainLayouts;
+
+// //✅ What This Code Does Well
+// Modular Structure: It imports Navbar and Footer as reusable components, keeping the layout consistent across routes.
+
+// React Router Integration: Uses <Outlet /> to render nested routes dynamically.
+
+// Semantic HTML: Uses <header>, <main>, and <footer> tags appropriately, which helps with accessibility and SEO.
